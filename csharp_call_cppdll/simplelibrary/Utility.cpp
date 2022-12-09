@@ -6,5 +6,5 @@ extern "C" _declspec(dllexport) int Add(int x, int y) {
 }
 
 extern "C" _declspec(dllexport) void Pow(int* x, double y) {
-	*x = pow(*x, y);
+	*x = (int)pow(*x, y);
 }
